@@ -113,17 +113,17 @@ function Home() {
                         placeholder='Title'
                         value={newDivData.title}
                         onChange={(e) => setNewDivData({ ...newDivData, title: e.target.value })}
-                        className='w-64 p-2 mr-2 rounded'
+                        className='w-64 p-2 mr-2 rounded-full bg-black bg-opacity-60 border border-gray-500'
                     />
                     <input
                         type='text'
                         placeholder='Image URL'
                         value={newDivData.imageUrl}
                         onChange={(e) => setNewDivData({ ...newDivData, imageUrl: e.target.value })}
-                        className='w-64 p-2 mr-2 rounded'
+                        className='w-64 p-2 mr-2 rounded-full bg-black bg-opacity-60 border border-gray-500'
                     />
                     <button
-                        className='px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-600'
+                        className='text-white rounded h-8 w-24 p-1 m-1 bg-gradient-to-t from-[#000000] to-[#434343] hover:bg-gradient-to-br hover:from-[#434343] hover:to-[#000000]'
                         onClick={handleAddDiv}
                     >
                         Add Div
